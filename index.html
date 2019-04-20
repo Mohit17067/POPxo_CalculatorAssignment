@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+			POPxo-Calculator
+		</title>
+		<link rel = "stylesheet" type="text/css" href = "design.css">
+	</head>
+	<body>
+		<div>
+			<h1>POPxo-Calculator</h1>
+		</div>
+		<div id = "result">
+			<form name = "Calculator">
+				<input type = "text" name = "output" class = "textview" disabled>
+			</form>
+		</div>
+		<div id = "buttons" class = "main">
+			<div class = "button-row">
+				<button id = "num-7" class = "num btn" onclick="insertNum(7)">7</button>
+				<button id = "num-8" class = "num btn" onclick="insertNum(8)">8</button>
+				<button id = "num-9" class = "num btn" onclick="insertNum(9)">9</button>
+				<button id = "op-divide" class = "opp btn" onclick="insertOp('/')">÷</button>
+				<button id = "delete" class = "btn button-red" onclick="del()">DEL</button>
+			</div>
+			<div class = "button-row">
+				<button id = "num-4" class = "num btn" onclick="insertNum(4)">4</button>
+				<button id = "num-5" class = "num btn" onclick="insertNum(5)">5</button>
+				<button id = "num-6" class = "num btn" onclick="insertNum(6)">6</button>
+				<button id = "op-multiply" class = "opp btn" onclick="insertOp('*')">X</button>
+				<button id = "clear" class = "btn button-red" onclick="clean()">AC</button>
+			</div>
+			<div class = "button-row">
+				<button id = "num-1" class = "num btn" onclick="insertNum(1)">1</button>
+				<button id = "num-2" class = "num btn" onclick="insertNum(2)">2</button>
+				<button id = "num-3" class = "num btn" onclick="insertNum(3)">3</button>
+				<button id = "op-add" class = "opp btn" onclick="insertOp('+')">+</button>
+				<button id = "equal" class = "btn button-green" onclick="equalTo()">=</button>
+			</div>
+			<div class = "button-row">
+				<button id = "num-0" class = "num btn" onclick="insertNum(0)">0</button>
+				<button id = "op-sub" class = "opp btn" onclick="insertOp('-')">-</button>
+				<button id = "decimal" class = "btn" onclick="insertDec()">.</button>
+			</div>
+		</div>
+		<div id = "calc-history">
+			<span>History</span>
+			 <hr>
+      		<div id="calc-history-box">
+
+      		</div>
+		</div>
+	<script type = "text/javascript" src = "calc.js"></script>
+	</body>
+</html>

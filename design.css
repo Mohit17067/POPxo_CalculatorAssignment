@@ -1,0 +1,90 @@
+body {
+	background-color: #FFFFFF;
+	color: fuchsia;
+	margin: auto;
+  	width: 50%;
+  	border: 3px solid green;
+  	text-align: left;
+  	padding: 30px;
+}
+
+h1 {
+  	margin-bottom: 20px;
+  	text-align: center;
+  	font-size: 40px;
+}
+
+ .btn {
+ 	box-shadow: 0px 5px 10px #222222;
+  	width: 60px;
+  	height: 60px;
+  	font-size: 20px;
+  	background-color: #00FFFF;
+  	text-align: center;
+  	line-height: 60px;
+  	margin: 3px;
+}
+
+
+#num-0 {
+	width: 200px;
+}
+
+.button-row .btn:hover {
+  	background-color: #FF00FF;
+  	color: white !important;
+}
+
+.button-red {
+  	background-color: #FF0000 !important;
+}
+
+.button-red:hover {
+	background-color: #FF00FF !important;
+}
+
+
+.button-green {
+  	background-color: #00FF00 !important;
+}
+
+.button-green:hover {
+	background-color: #FF00FF !important;
+}
+
+.textview {
+	width: 320px;
+	height: 30px;
+	margin: 3px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+#calc-history {
+	position: absolute;
+	left: 700px;
+	top: 130px;
+  	width: 250px;
+  	height: 270px;
+  	background-color: #FF00FF;
+  	font-size: 30px;
+  	text-align: center;
+  	color: white;
+  	border-radius: 5px;
+  	margin-top: 6px;
+  	margin-left: 10px;
+  	padding: 10px;
+  	box-shadow: 0px 5px 10px #444444 inset;
+}
+
+#calc-history-box {
+  	width: 180px !important;
+  	height: 220px !important;
+  	resize: none;
+  	overflow: hidden;
+}
+
+#history hr {
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+}
